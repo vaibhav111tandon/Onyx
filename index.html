@@ -30,7 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--//jquery-css counter time-->
     <link href="css/font-awesome.css" rel="stylesheet">
     <!-- font-awesome icons -->
-   <!-- //Custom Theme files -->
+    <!-- //Custom Theme files -->
     <!-- web-fonts -->
     <link href="//fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Redressed" rel="stylesheet">
@@ -122,6 +122,56 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- //banner -->
     </div>
 
+
+    <div class="about_container">
+
+    </div>
+
+
+    <div class="event_container">
+        <div id="left_day_one">DAY 1</div>
+        <div>
+        <center>
+        <figure class="icon-cards mt-3">
+            <div class="icon-cards__content step-animation">
+                <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">E</span></div>
+                <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">V</span></div>
+                <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">N</span></div>
+                <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">T</span></div>
+            </div>
+        </figure>
+        </center>
+        </div>
+        <hr/>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- js -->
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
@@ -131,6 +181,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- model responsive slider -->
     <script src="js/responsiveslides.min.js"></script>
     <script>
+
+
+    function classToggle() {
+        var el = document.querySelector('.icon-cards__content');
+        el.classList.toggle('step-animation');
+    }
+    classToggle();
+
         // You can also use "$(window).load(function() {"
         $(function () {
             // Slideshow 4
