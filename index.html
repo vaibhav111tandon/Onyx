@@ -32,6 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- font-awesome icons -->
     <!-- //Custom Theme files -->
     <!-- web-fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Redressed" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -159,10 +160,97 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <center>
         <div id="right_day_one">DAY 2</div>
         </center>
-        
 
     </div>
+    <div class="coordinator">
+            <!-- TESTIMONIALS -->
+<section class="testimonials">
+	<div class="container">
 
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Lorem Ipsum</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Lorem Ipsum</p>
+              </div>
+              <div class="testimonial-name">Club Heads</div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Abhimanyu Rawat</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Astha Vaish</p>
+              </div>
+              <div class="testimonial-name">Marketing Coordinators</div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Vivek Chauhan</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Swati Soni</p>
+              </div>
+              <div class="testimonial-name">Creative Coordinators</div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+            <!--TESTIMONIAL 4 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Aman</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Shubhi</p>
+                </div>
+              <div class="testimonial-name">Registration Coordinator</div>
+            </div>
+            <!--END OF TESTIMONIAL 4 -->
+            <!--TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Rijula</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Tanushi</p>
+              </div>
+              <div class="testimonial-name">Decor Coordinator</div>
+            </div>
+            <!--END OF TESTIMONIAL 5 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Gokul Dudani</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Anshika</p>
+              </div>
+              <div class="testimonial-name">Sponshorship Coordinator</div>
+            </div>
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Parul Panchal</p>
+                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                <p>Kartikey</p>
+              </div>
+              <div class="testimonial-name">Social Media Coordinator</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+    </div>
 
 
 
@@ -197,7 +285,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //fixed-scroll-nav-js -->
     <!-- model responsive slider -->
     <script src="js/responsiveslides.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
     <script>
+
+
+            jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
+
 
 
     function classToggle() {
