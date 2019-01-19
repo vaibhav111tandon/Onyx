@@ -442,23 +442,25 @@ ul.dropdown-menu:hover a.s-menu {
   
 
 
-
+.coordinator{
+    background-color: #20183c;
+}
 
 
 
 
 
   .shadow-effect {
-    background: #fff;
+    background: #f2f2f2;
     padding: 20px;
     border-radius: 4px;
     text-align: center;
-border:1px solid #ECECEC;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+    border:1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(151, 148, 148,0.10), 0 15px 12px rgba(151, 148, 148, 0.02);
 }
 #customers-testimonials .shadow-effect p {
     font-family: inherit;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0 0 17px 0;
     font-weight: 300;
@@ -492,7 +494,7 @@ border:1px solid #ECECEC;
 }
 .owl-carousel .owl-item img {
     transform-style: preserve-3d;
-    max-width: 90px;
+    max-width: 100px;
     margin: 0 auto 17px;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
@@ -518,6 +520,60 @@ display: inline-block;
     transition: all 250ms ease-out 0s;
     width: 20px;
 }
+
+
+.footer_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+#map{
+    width: 70%;
+    height: 400px;
+}
+.contact_section{
+    width: 30%;
+    height: 400px;
+}
+
+
+
+
+
+#map{height: 700px;}
+a {color: #f56363;transition: all 0.3s ease-in-out}
+p{font-weight: 400;color: #4c4c4c;font-size: 17px}
+.map-info-box { text-align: left}
+.map-info-box p { margin: 0 0 8px}
+.map-info-box i {padding-right: .5em;color: #CEC9C9}
+.map-head h3 {
+  height: 64px;
+  background: url(http://icons.iconarchive.com/icons/icons8/windows-8/64/Logos-Box-icon.png) 81px center no-repeat;
+  background-size: 64px auto;
+  text-indent: -999em;
+  margin: 12px 0 14px;
+}
+.map-address { font-weight: 300; }
+.map-email { font-weight: 400; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
