@@ -1,0 +1,56 @@
+.footer-section{
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+.map-section{
+    width: 70%;
+    height: 550px;
+}
+.contact-section{
+    width: 30%;
+    height: 550px;
+    background-color: rgba(17, 12, 17, 0.918);
+}
+.contact-section h4{
+    color: azure;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+}
+hr{
+    background-color: aliceblue;
+}
+.contact-section input,.contact-section textarea{
+    background-color: black;
+    padding: 5px;
+    margin-top: 20px;
+    color: beige;
+    width: 70%;
+    height: 50px;
+    border: transparent;
+}
+.contact-section textarea{
+    height: 100px;
+}
+.contact-section button{
+    background-color: rgb(52, 160, 52);
+    margin-top: 30px;
+    color: aliceblue;
+    margin-left:15.5%;
+    border:transparent;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:650px){
+    .footer-section{
+        display: block;
+    }
+    .contact-section{
+        width: 100%;
+    }
+    .map-section{
+        width: 100%;
+    }
+}
