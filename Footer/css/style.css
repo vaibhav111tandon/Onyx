@@ -43,6 +43,11 @@ hr{
     cursor: pointer;
     margin-bottom: 10px;
 }
+.contact-section p{
+    font-size: 11px;
+    color: rgb(116, 114, 114);
+    line-height: 2px;
+}
 @media screen and (max-width:650px){
     .footer-section{
         display: block;

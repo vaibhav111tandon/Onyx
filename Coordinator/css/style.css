@@ -202,6 +202,10 @@ body {
   text-align: center;
   letter-spacing: 1px;
 }
+.blog-slider__button:hover{
+  text-decoration: none;
+  color: #fff;
+}
 @media screen and (max-width: 576px) {
   .blog-slider__button {
     width: 100%;
